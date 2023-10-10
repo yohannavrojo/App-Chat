@@ -9,7 +9,7 @@ import router from './routes/message.js'
 import bodyParser from 'body-parser'
 
 //Mongoose configuration **********************************************************
-var url = 'mongodb+srv://yohavale7883:Luciano181598@cluster0.jmtntmy.mongodb.net/?retryWrites=true&w=majority'
+var url = 'mongodb+srv://<username>:<password>@cluster0.jmtntmy.mongodb.net/?retryWrites=true&w=majority'
 //Configuración para evitar fallos en la conexión con mongoDB
 mongoose.Promise = global.Promise;
 
